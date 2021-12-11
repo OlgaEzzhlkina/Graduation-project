@@ -88,7 +88,7 @@ body {
   font-size: 14px;
   line-height: 120%;
   letter-spacing: 0.01em;
-  color: #858585;
+  color: #383838;
 }
 
 a,
@@ -139,12 +139,38 @@ a:focus {
   justify-content: center;
 }
 
-h1 {
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Bitter-700", serif;
+  margin: 0;
+}
+
+h1 {
   font-size: 50px;
   line-height: 100%;
   text-transform: uppercase;
-  color: #383838;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 130%;
+  text-align: right;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
 }
 
 .offer {
@@ -289,8 +315,85 @@ h1 {
   margin-top: 30px;
 }
 
-.offer__btn:hover {
+.offer__btn:hover,
+.consultation__btn:hover {
   color: #00a2ff;
   border: 1px solid #00a2ff;
   background: transparent;
+}
+
+/* ----- Section Assistance ----- */
+
+.assistance {
+  padding: 186px 0 100px;
+  position: relative;
+}
+
+.assistance::before {
+  content: "";
+  display: block;
+  width: 76%;
+  height: 378px;
+  background: #f3f9fb;
+  position: absolute;
+  top: 135px;
+  right: 0;
+  z-index: -5;
+}
+
+.consultation {
+  text-align: right;
+  width: 300px;
+}
+
+.consultation__subtitle {
+  font-family: "Bitter-700", serif;
+  font-size: 21px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  margin-bottom: 5px;
+}
+
+.consultation__title {
+  margin: 0;
+}
+
+.consultation__text {
+  font-family: "ProximaNova-400", sans-serif;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  margin: 15px 0 25px;
+}
+
+.consultation__btn {
+  color: #fff;
+}
+
+.card {
+  border: 0;
+  width: 233px;
+  text-align: center;
+  margin-right: 0;
+  padding: 40px 20px 30px;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(206, 218, 228, 0.6);
+  border-radius: 5px;
+}
+
+.card__icon {
+  width: 50px;
+  height: 49px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card__title {
+  margin: 20px 0 15px;
+}
+
+.card__content {
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  color: #858585;
 }
