@@ -1,0 +1,296 @@
+/* ----- Подключение шрифтов ----- */
+@font-face {
+  font-family: "Bitter-400";
+  src: url("../fonts/Bitter-400/Bitter-400.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Bitter-400/Bitter-400.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Bitter-400/Bitter-400.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/Bitter-400/Bitter-400.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/Bitter-400/Bitter-400.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Bitter-400/Bitter-400.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Bitter-700";
+  src: url("../fonts/Bitter-700/Bitter-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Bitter-700/Bitter-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Bitter-700/Bitter-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/Bitter-700/Bitter-700.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/Bitter-700/Bitter-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/Bitter-700/Bitter-700.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "ProximaNova-400";
+  src: url("../fonts/ProximaNova-400/ProximaNova-400.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/ProximaNova-400/ProximaNova-400.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/ProximaNova-400/ProximaNova-400.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/ProximaNova-400/ProximaNova-400.woff") format("woff"),
+    /* Pretty Modern Browsers */
+      url("../fonts/ProximaNova-400/ProximaNova-400.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/ProximaNova-400/ProximaNova-400.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "ProximaNova-600";
+  src: url("../fonts/ProximaNova-600/ProximaNova-600.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/ProximaNova-600/ProximaNova-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/ProximaNova-600/ProximaNova-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/ProximaNova-600/ProximaNova-600.woff") format("woff"),
+    /* Pretty Modern Browsers */
+      url("../fonts/ProximaNova-600/ProximaNova-600.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/ProximaNova-600/ProximaNova-600.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "ProximaNova-700";
+  src: url("../fonts/ProximaNova-700/ProximaNova-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/ProximaNova-700/ProximaNova-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/ProximaNova-700/ProximaNova-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/ProximaNova-700/ProximaNova-700.woff") format("woff"),
+    /* Pretty Modern Browsers */
+      url("../fonts/ProximaNova-700/ProximaNova-700.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/ProximaNova-700/ProximaNova-700.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+/* ------ Спецификация ------ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ProximaNova-400", sans-serif;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  color: #858585;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a,
+button,
+input {
+  transition: all 0.5s ease;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active,
+a:hover,
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.menu {
+  font-family: "ProximaNova-600", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  max-width: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Bitter-700", serif;
+  font-size: 50px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #383838;
+}
+
+.offer {
+  color: #383838;
+  text-align: center;
+}
+
+.btn {
+  background: linear-gradient(90deg, #00ccff 0%, #00a2ff 100%);
+  box-shadow: 0px 5px 20px rgba(0, 163, 255, 0.4);
+  border-radius: 30px;
+  font-family: "ProximaNova-700", sans-serif;
+  font-size: 15px;
+  line-height: 150%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  width: 270px;
+  padding: 14px;
+  transition: all 3s ease;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/* ----- Section Header ----- */
+.header {
+  min-height: 998px;
+  background: url("../img/index/header-bg.jpg") center / cover;
+  padding-bottom: 100px;
+}
+
+.head {
+  padding: 15px 0;
+  background: #fafbfc;
+  box-shadow: 0px 5px 30px rgba(206, 218, 228, 0.6);
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.menu__item {
+  color: #383838;
+  position: relative;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 37px;
+}
+
+.menu__item::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #26afff;
+  width: 100%;
+  opacity: 0;
+  transition: all 1s ease;
+  position: absolute;
+  top: 54px;
+}
+
+.menu__item:hover::after {
+  opacity: 1;
+}
+
+.menu__link {
+  color: inherit;
+}
+
+.menu__link:hover {
+  color: #26afff;
+}
+
+.head__call {
+  margin-left: auto;
+}
+
+.call__icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #00ccff 0%, #00a2ff 100%);
+  box-shadow: 0px 5px 20px rgba(0, 163, 255, 0.4);
+}
+
+.call__order,
+.call__tel {
+  display: block;
+  font-size: 17px;
+}
+
+.call__order {
+  font-weight: 700;
+  line-height: 140%;
+  color: #26afff;
+}
+
+.call__tel {
+  color: #383838;
+}
+
+.call__order:hover,
+.call__tel:hover {
+  color: #26afff;
+}
+
+.header__content {
+  padding: 110px 0 100px;
+}
+
+.header__offer {
+  margin: 0 auto;
+}
+
+.offer__subtitle {
+  font-family: Bitter;
+  font-size: 25px;
+  line-height: 140%;
+  color: #383838;
+  margin: 0;
+}
+
+.offer__title {
+  margin: 10px 0 25px;
+}
+
+.offer__description {
+  font-size: 17px;
+  line-height: 140%;
+  margin: 0 auto;
+  width: 570px;
+}
+
+.offer__btn {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.offer__btn:hover {
+  color: #00a2ff;
+  border: 1px solid #00a2ff;
+  background: transparent;
+}
