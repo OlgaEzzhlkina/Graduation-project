@@ -201,6 +201,14 @@ h6 {
   letter-spacing: 0.01em;
 }
 
+.logo {
+  width: 198px;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
 .offer {
   color: #383838;
   text-align: center;
@@ -253,10 +261,6 @@ h6 {
   padding: 15px 0;
   background: #fafbfc;
   box-shadow: 0px 5px 30px rgba(206, 218, 228, 0.6);
-}
-
-.logo:hover {
-  opacity: 0.7;
 }
 
 .menu__item {
@@ -361,7 +365,8 @@ h6 {
 }
 
 .offer__btn:hover,
-.consultation__btn:hover {
+.consultation__btn:hover,
+.mailing__btn:hover {
   color: #00a2ff;
   border: 1px solid #00a2ff;
   background: transparent;
@@ -603,6 +608,10 @@ h6 {
   padding: 158px 0 150px;
 }
 
+.new-title {
+  text-align: right;
+}
+
 .pagination {
   width: 125px;
   display: flex;
@@ -681,4 +690,148 @@ h6 {
 .new-item__link:hover {
   color: #26afff;
   opacity: 0.5;
+}
+
+/* ----- Footer ----- */
+.footer {
+  background: #383838;
+  padding: 60px 0;
+  color: #ccc;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.social {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.social__link,
+.footer-menu__link,
+.phone__link,
+.email__link {
+  color: #ccc;
+}
+
+.social__link:hover,
+.footer-menu__link:hover,
+.phone__link:hover,
+.email__link:hover {
+  color: #fff;
+}
+
+.social__facebook {
+  font-size: 18px;
+}
+
+.about-footer__text {
+  width: 200px;
+  margin-top: 40px;
+}
+
+.footer-nav__title,
+.connection__title,
+.mailing__title {
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  font-family: "ProximaNova-700";
+}
+
+.footer-menu {
+  margin-top: 25px;
+}
+
+.footer-menu__item {
+  margin-top: 22px;
+}
+
+.footer-menu__link {
+  color: #ccc;
+}
+
+.footer-menu__link:hover {
+  color: #fff;
+}
+
+.connection {
+  width: 232px;
+}
+
+.address {
+  width: 232px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.address__icon {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.address__text {
+  width: 198px;
+}
+
+.phone {
+  display: flex;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.phone__img {
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.phone__number {
+  width: 130px;
+  margin-left: 15px;
+}
+
+.email {
+  display: flex;
+  width: 232px;
+  margin-top: 20px;
+}
+
+.email__icon {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-right: 15px;
+}
+
+.mailing__input {
+  width: 370px;
+  height: 50px;
+  background: #494949;
+  border-radius: 5px;
+  border: 0;
+  padding: 17px 27px;
+  color: #fff;
+  margin-top: 31px;
+}
+
+.mailing__btn {
+  color: #fff;
+  margin-top: 25px;
+}
+
+.security {
+  border-top: 1px solid #ccc;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.security__text {
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
 }
