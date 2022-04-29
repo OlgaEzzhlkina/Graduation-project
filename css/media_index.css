@@ -1,4 +1,5 @@
 @media (max-width: 992px) {
+  /* ------- Section Header ------- */
   .header {
     min-height: 780px;
     background: url("../img/index/header-bg-768.jpg") center;
