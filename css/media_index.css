@@ -31,6 +31,9 @@
     font-size: 40px;
   }
 
+  .offer__description {
+    width: 545px;
+  }
   
 }
 
@@ -59,9 +62,13 @@
 
 /* ----- Section Cases ----- */
 
-@media (max-width: 1999px) {
+@media (max-width: 1199px) {
   .cases {
     padding: 50px 0 100px;
+  }
+
+  .cases-description {
+    width: 730px;
   }
 
   .toggles {
@@ -92,5 +99,31 @@
   .case__img {
     width: 280px;
     height: 280px;
+  }
+}
+
+/* ----- Section Contact ----- */
+@media (max-width: 1199px) {
+  .contact {
+    padding: 85px 0 144px;
+    background: none;
+    background: url(../img/index/contact-bg-768.jpg) center / cover;
+  }
+
+  .contact-phone-bg, .contact-decor-bg {
+    display: none;
+  }
+
+  .contact-content {
+    margin: 0 auto;
+  }
+
+  .contact-content__title {
+    text-align: center;
+  }
+
+  .contact-content__btn {
+    display: block;
+    margin: 35px auto 0;
   }
 }
