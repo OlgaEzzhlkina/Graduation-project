@@ -1,0 +1,33 @@
+@media (max-width: 992px) {
+  .header {
+    min-height: 780px;
+    background: url("../img/index/header-bg-768.jpg") center;
+  }
+
+  .logo__img {
+    width: 135px;
+  }
+
+  .nav {
+    margin-left: 20px;
+  }
+
+
+  .menu__link {
+    font-size: 13px;
+  }
+
+  .call__order, .call__tel {
+    font-size: 13px;
+  }
+
+  .offer__subtitle {
+    font-size: 22px;
+  }
+
+  .offer__title {
+    font-size: 40px;
+  }
+
+  
+}

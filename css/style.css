@@ -125,13 +125,13 @@ a:focus {
   box-shadow: none;
 }
 
+.container {
+  max-width: 1170px;
+}
+
 .menu {
   font-family: "ProximaNova-600", sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  max-width: 520px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .call {
@@ -209,6 +209,13 @@ h6 {
   opacity: 0.7;
 }
 
+.head__menu {
+  max-width: 520px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
 .offer {
   color: #383838;
   text-align: center;
@@ -253,7 +260,7 @@ h6 {
 /* ----- Section Header ----- */
 .header {
   min-height: 998px;
-  background: url("../img/index/header-bg.jpg") center / cover;
+  background: url("../img/index/header-bg-desk.jpg") center;
   padding-bottom: 100px;
 }
 
@@ -269,7 +276,7 @@ h6 {
 }
 
 .menu__item:not(:last-child) {
-  margin-right: 37px;
+  margin-right: 15px;
 }
 
 .menu__item::after {
@@ -301,21 +308,24 @@ h6 {
 }
 
 .call__icon {
-  width: 45px;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 10px;
   border-radius: 50%;
   background: linear-gradient(90deg, #00ccff 0%, #00a2ff 100%);
   box-shadow: 0px 5px 20px rgba(0, 163, 255, 0.4);
 }
 
+.call__action {
+  font-size: 17px;
+}
+
 .call__order,
 .call__tel {
   display: block;
-  font-size: 17px;
-}
+} 
 
 .call__order {
   font-weight: 700;
