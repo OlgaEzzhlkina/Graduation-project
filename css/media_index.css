@@ -127,3 +127,25 @@
     margin: 35px auto 0;
   }
 }
+
+/* ----- Section New ----- */
+@media (max-width: 1199px) {
+  .new {
+    padding: 100px 0;
+  }
+
+  .new-item_invisible {
+    display: none;
+  }
+
+  .new-item {
+    margin-left: 25px;
+    margin-top: 85px;
+  } 
+}
+
+@media (max-width: 992px) {
+  .new-item {
+    margin-left: 5px;
+  }
+}
