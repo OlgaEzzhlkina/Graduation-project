@@ -149,3 +149,51 @@
     margin-left: 5px;
   }
 }
+
+/* ----- Footer ----- */
+
+@media (max-width: 1199px) {
+  .mailing {
+    width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .about-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+  
+  .about-footer__text {
+    display: none;
+  }
+
+  .about-footer__social {
+    margin-top: 0;
+  }
+
+  .mailing {
+    margin-top: 55px;
+    width: 100%;
+  }
+
+  .mailing__input {
+    max-width: 370px;
+    margin-right: 30px;
+  }
+
+  .mailing__btn {
+    margin-top: 0;
+  }
+
+  .security {
+    margin-top: 50px;
+  }
+
+  .security__text_invisible {
+    display: block;
+  }
+}
