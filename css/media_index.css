@@ -48,6 +48,10 @@
 }
 
 @media (max-width: 576px) {
+  h2 {
+    font-size: 36px;
+  }
+  
   .header {
     min-height: 660px;
   }
@@ -86,7 +90,7 @@
   }
   
   .card {
-    margin-top: 40px;
+    margin: 40px auto 0;
   }
 
   .consultation {
@@ -95,6 +99,12 @@
 
   .consultation__btn {
     margin: 50px auto 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .assistance::before {
+    width: 50%;
   }
 }
 
