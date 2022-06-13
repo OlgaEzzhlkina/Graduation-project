@@ -134,6 +134,10 @@
 }
 
 @media (max-width: 768px) {
+  .cases-description {
+    max-width: 100%;
+  }
+
   .case::before {
     width: 200px;
     height: 280px;
@@ -148,6 +152,10 @@
     width: 280px;
     height: 280px;
   }
+}
+
+@media (max-width: 575px) {
+  
 }
 
 /* ----- Section Contact ----- */
