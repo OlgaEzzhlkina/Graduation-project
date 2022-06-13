@@ -37,6 +37,16 @@
   
 }
 
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+
+  .head__burger {
+    display: flex;
+  }
+}
+
 /* ----- Section Assistance ----- */
 @media (max-width: 1199px) {
   .assistance {
