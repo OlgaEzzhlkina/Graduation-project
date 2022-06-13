@@ -184,6 +184,28 @@
   }
 }
 
+@media (max-width: 992px) {
+  .contact {
+    padding: 120px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    background: url(../img/index/contact-bg-sm.jpg) no-repeat center / 100% 100%;
+  }
+
+  .contact-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  h3 {
+    font-size: 22px;
+  }
+}
+
 /* ----- Section New ----- */
 @media (max-width: 1199px) {
   .new {
