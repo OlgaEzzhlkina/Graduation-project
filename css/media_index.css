@@ -47,6 +47,34 @@
   }
 }
 
+@media (max-width: 576px) {
+  .header {
+    min-height: 660px;
+  }
+
+  .offer__subtitle {
+    font-size: 20px;
+  }
+
+  .offer__title {
+    font-size: 30px;
+  }
+
+  .offer__description {
+    width: 380px;
+  }
+
+  .offer__btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .head__call {
+    display: none;
+  }
+}
+
 /* ----- Section Assistance ----- */
 @media (max-width: 1199px) {
   .assistance {
