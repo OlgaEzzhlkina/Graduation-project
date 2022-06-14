@@ -228,6 +228,42 @@
   }
 }
 
+@media (max-width: 767px) {
+  .new-item {
+    margin: 40px auto 0;
+    padding-top: 0;
+  }
+
+  .new-img-wrap {
+    padding-right: 0;
+  }
+
+  .new-item__photo {
+    position: static;
+    width: 100%;
+  }
+
+  .new-item__date {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
+
+  .new-item__content {
+    margin-top: 35px;
+  }
+
+  .new-item_invisible_sm {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .new {
+    padding: 60px 0;
+  }
+}
+
 /* ----- Footer ----- */
 
 @media (max-width: 1199px) {
