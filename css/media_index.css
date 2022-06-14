@@ -103,8 +103,13 @@
 }
 
 @media (max-width: 575px) {
+  .assistance {
+    padding: 60px 0;
+  }
+
   .assistance::before {
     width: 50%;
+    top: 255px;
   }
 }
 
@@ -155,7 +160,56 @@
 }
 
 @media (max-width: 575px) {
-  
+  .cases {
+    padding: 10px 0 60px;
+  }
+
+  .toggles {
+    flex-direction: column;
+    margin: 45px 0 10px;
+    width: 100%;
+  }
+
+  .toggle {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .toggle:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #dee6e9;
+  }
+
+  .toggle:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+
+   .toggle:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .case {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .case::before {
+    width: 290px;
+    top: -25px;
+    right: 65px;
+  }
+
+  .case__overlay {
+    opacity: 1;
+  }
+
+  .case__title {
+    position: absolute;
+    z-index: 5;
+    top: -10px;
+    left: 125px;
+    color: #fff;
+  }
 }
 
 /* ----- Section Contact ----- */
