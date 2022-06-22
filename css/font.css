@@ -1,0 +1,80 @@
+/* ----- Подключение шрифтов ----- */
+@font-face {
+   font-family: "Bitter-400";
+   src: url("../fonts/Bitter-400/Bitter-400.eot");
+   /* IE9 Compat Modes */
+   src: url("../fonts/Bitter-400/Bitter-400.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */
+      url("../fonts/Bitter-400/Bitter-400.woff2") format("woff2"),
+      /* Super Modern Browsers */
+      url("../fonts/Bitter-400/Bitter-400.woff") format("woff"),
+      /* Pretty Modern Browsers */
+      url("../fonts/Bitter-400/Bitter-400.ttf") format("truetype"),
+      /* Safari, Android, iOS */
+      url("../fonts/Bitter-400/Bitter-400.svg#svgFontName") format("svg");
+   /* Legacy iOS */
+}
+
+@font-face {
+   font-family: "Bitter-700";
+   src: url("../fonts/Bitter-700/Bitter-700.eot");
+   /* IE9 Compat Modes */
+   src: url("../fonts/Bitter-700/Bitter-700.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */
+      url("../fonts/Bitter-700/Bitter-700.woff2") format("woff2"),
+      /* Super Modern Browsers */
+      url("../fonts/Bitter-700/Bitter-700.woff") format("woff"),
+      /* Pretty Modern Browsers */
+      url("../fonts/Bitter-700/Bitter-700.ttf") format("truetype"),
+      /* Safari, Android, iOS */
+      url("../fonts/Bitter-700/Bitter-700.svg#svgFontName") format("svg");
+   /* Legacy iOS */
+}
+
+@font-face {
+   font-family: "ProximaNova-400";
+   src: url("../fonts/ProximaNova-400/ProximaNova-400.eot");
+   /* IE9 Compat Modes */
+   src: url("../fonts/ProximaNova-400/ProximaNova-400.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */
+      url("../fonts/ProximaNova-400/ProximaNova-400.woff2") format("woff2"),
+      /* Super Modern Browsers */
+      url("../fonts/ProximaNova-400/ProximaNova-400.woff") format("woff"),
+      /* Pretty Modern Browsers */
+      url("../fonts/ProximaNova-400/ProximaNova-400.ttf") format("truetype"),
+      /* Safari, Android, iOS */
+      url("../fonts/ProximaNova-400/ProximaNova-400.svg#svgFontName") format("svg");
+   /* Legacy iOS */
+}
+
+@font-face {
+   font-family: "ProximaNova-600";
+   src: url("../fonts/ProximaNova-600/ProximaNova-600.eot");
+   /* IE9 Compat Modes */
+   src: url("../fonts/ProximaNova-600/ProximaNova-600.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */
+      url("../fonts/ProximaNova-600/ProximaNova-600.woff2") format("woff2"),
+      /* Super Modern Browsers */
+      url("../fonts/ProximaNova-600/ProximaNova-600.woff") format("woff"),
+      /* Pretty Modern Browsers */
+      url("../fonts/ProximaNova-600/ProximaNova-600.ttf") format("truetype"),
+      /* Safari, Android, iOS */
+      url("../fonts/ProximaNova-600/ProximaNova-600.svg#svgFontName") format("svg");
+   /* Legacy iOS */
+}
+
+@font-face {
+   font-family: "ProximaNova-700";
+   src: url("../fonts/ProximaNova-700/ProximaNova-700.eot");
+   /* IE9 Compat Modes */
+   src: url("../fonts/ProximaNova-700/ProximaNova-700.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */
+      url("../fonts/ProximaNova-700/ProximaNova-700.woff2") format("woff2"),
+      /* Super Modern Browsers */
+      url("../fonts/ProximaNova-700/ProximaNova-700.woff") format("woff"),
+      /* Pretty Modern Browsers */
+      url("../fonts/ProximaNova-700/ProximaNova-700.ttf") format("truetype"),
+      /* Safari, Android, iOS */
+      url("../fonts/ProximaNova-700/ProximaNova-700.svg#svgFontName") format("svg");
+   /* Legacy iOS */
+}

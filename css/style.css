@@ -1,263 +1,3 @@
-/* ----- Подключение шрифтов ----- */
-@font-face {
-  font-family: "Bitter-400";
-  src: url("../fonts/Bitter-400/Bitter-400.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Bitter-400/Bitter-400.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/Bitter-400/Bitter-400.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/Bitter-400/Bitter-400.woff")
-      format("woff"),
-    /* Pretty Modern Browsers */ url("../fonts/Bitter-400/Bitter-400.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/Bitter-400/Bitter-400.svg#svgFontName") format("svg"); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: "Bitter-700";
-  src: url("../fonts/Bitter-700/Bitter-700.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Bitter-700/Bitter-700.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/Bitter-700/Bitter-700.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/Bitter-700/Bitter-700.woff")
-      format("woff"),
-    /* Pretty Modern Browsers */ url("../fonts/Bitter-700/Bitter-700.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/Bitter-700/Bitter-700.svg#svgFontName") format("svg"); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: "ProximaNova-400";
-  src: url("../fonts/ProximaNova-400/ProximaNova-400.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/ProximaNova-400/ProximaNova-400.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/ProximaNova-400/ProximaNova-400.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/ProximaNova-400/ProximaNova-400.woff") format("woff"),
-    /* Pretty Modern Browsers */
-      url("../fonts/ProximaNova-400/ProximaNova-400.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/ProximaNova-400/ProximaNova-400.svg#svgFontName")
-      format("svg"); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: "ProximaNova-600";
-  src: url("../fonts/ProximaNova-600/ProximaNova-600.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/ProximaNova-600/ProximaNova-600.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/ProximaNova-600/ProximaNova-600.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/ProximaNova-600/ProximaNova-600.woff") format("woff"),
-    /* Pretty Modern Browsers */
-      url("../fonts/ProximaNova-600/ProximaNova-600.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/ProximaNova-600/ProximaNova-600.svg#svgFontName")
-      format("svg"); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: "ProximaNova-700";
-  src: url("../fonts/ProximaNova-700/ProximaNova-700.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/ProximaNova-700/ProximaNova-700.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/ProximaNova-700/ProximaNova-700.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("../fonts/ProximaNova-700/ProximaNova-700.woff") format("woff"),
-    /* Pretty Modern Browsers */
-      url("../fonts/ProximaNova-700/ProximaNova-700.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-      url("../fonts/ProximaNova-700/ProximaNova-700.svg#svgFontName")
-      format("svg"); /* Legacy iOS */
-}
-
-/* ------ Спецификация ------ */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "ProximaNova-400", sans-serif;
-  font-size: 14px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
-  color: #383838;
-}
-
-a,
-a:hover,
-a:active {
-  text-decoration: none;
-}
-
-a,
-button,
-input {
-  transition: all 0.5s ease;
-}
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  box-sizing: border-box;
-}
-
-input,
-input:hover,
-input:focus,
-input:active,
-button,
-button:hover,
-button:focus,
-button:active,
-a:hover,
-a:focus {
-  outline: none;
-  box-shadow: none;
-  background-color: transparent;
-  border: none;
-}
-
-.container {
-  max-width: 1170px;
-}
-
-.menu {
-  font-family: "ProximaNova-600", sans-serif;
-  font-weight: 600;
-}
-
-.call {
-  display: flex;
-  justify-content: center;
-}
-
-p {
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Bitter-700", serif;
-  margin: 0;
-}
-
-h1 {
-  font-size: 50px;
-  line-height: 100%;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 42px;
-  line-height: 130%;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-}
-
-h2 span {
-  font-family: "Bitter-700", serif;
-  display: block;
-  font-size: 21px;
-  line-height: 130%;
-  letter-spacing: 0.01em;
-  margin-bottom: 5px;
-  text-transform: none;
-}
-
-h3 {
-  font-size: 26px;
-  line-height: 140%;
-  text-align: right;
-}
-
-h4 {
-  font-family: "Bitter-400", serif;
-  font-size: 22px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
-}
-
-h5 {
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0.01em;
-}
-
-h6 {
-  font-size: 16px;
-  line-height: 130%;
-  letter-spacing: 0.01em;
-}
-
-.logo {
-  width: 198px;
-}
-
-.logo:hover {
-  opacity: 0.7;
-}
-
-.head__menu {
-  max-width: 520px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 15px;
-}
-
-.offer {
-  color: #383838;
-  text-align: center;
-}
-
-.btn {
-  background: linear-gradient(90deg, #00ccff 0%, #00a2ff 100%);
-  box-shadow: 0px 5px 20px rgba(0, 163, 255, 0.4);
-  border-radius: 30px;
-  font-family: "ProximaNova-700", sans-serif;
-  font-size: 15px;
-  line-height: 150%;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.01em;
-  width: 270px;
-  padding: 14px;
-  transition: all 1s ease;
-}
-
-.btn:focus {
-  box-shadow: none;
-}
-
-.read-link {
-  font-size: 15px;
-  line-height: 100%;
-  letter-spacing: 0.01em;
-  color: #26afff;
-}
-
-.read-link::after {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 1px;
-  background: #26afff;
-  margin-left: 12px;
-  margin-bottom: 3px;
-}
 
 /* ----- Section Header ----- */
 .header {
@@ -290,7 +30,7 @@ h6 {
   opacity: 0;
   transition: all 1s ease;
   position: absolute;
-  top: 54px;
+  top: 50px;
 }
 
 .menu__item:hover::after {
@@ -302,6 +42,22 @@ h6 {
 }
 
 .menu__link:hover {
+  color: #26afff;
+}
+
+.menu__item_active::after {
+  content: "";
+    display: block;
+    height: 2px;
+    background: #26afff;
+    width: 100%;
+    opacity: 1;
+    transition: all 1s ease;
+    position: absolute;
+    top: 50px;
+}
+
+.menu__link_active {
   color: #26afff;
 }
 
