@@ -302,4 +302,167 @@
 .team-item__icon_facebook {
    margin-right: 18px;
 }
+
+/* ----- Footer ----- */
+.footer {
+   background: #383838;
+   padding: 60px 0;
+   color: #ccc;
+   font-size: 15px;
+   line-height: 150%;
+   letter-spacing: 0.01em;
+}
+
+.about-footer__social {
+   margin-top: 40px;
+}
+
+.social {
+   width: 170px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+
+}
+
+.social__link,
+.footer-menu__link,
+.phone__link,
+.email__link {
+   color: #ccc;
+}
+
+.social__link:hover,
+.footer-menu__link:hover,
+.phone__link:hover,
+.email__link:hover {
+   color: #fff;
+}
+
+.social__facebook {
+   font-size: 18px;
+}
+
+.about-footer__text {
+   width: 200px;
+   margin-top: 40px;
+}
+
+.footer-nav__title,
+.connection__title,
+.mailing__title {
+   font-size: 18px;
+   line-height: 150%;
+   letter-spacing: 0.01em;
+   color: #ffffff;
+   font-family: "ProximaNova-700";
+}
+
+.footer-menu {
+   margin-top: 25px;
+}
+
+.footer-menu__item {
+   margin-top: 22px;
+}
+
+.footer-menu__link {
+   color: #ccc;
+}
+
+.footer-menu__link:hover {
+   color: #fff;
+}
+
+.connection {
+   width: 232px;
+}
+
+.address {
+   width: 232px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+}
+
+.address__icon {
+   font-size: 20px;
+   margin-top: 5px;
+}
+
+.address__text {
+   width: 198px;
+}
+
+.phone {
+   display: flex;
+   align-items: start;
+   margin-top: 20px;
+}
+
+.phone__img {
+   opacity: 0.8;
+   margin-top: 5px;
+}
+
+.phone__number {
+   width: 130px;
+   margin-left: 15px;
+}
+
+.email {
+   display: flex;
+   width: 232px;
+   margin-top: 20px;
+}
+
+.email__icon {
+   font-size: 18px;
+   margin-top: 2px;
+   margin-right: 15px;
+}
+
+.mailing {
+   width: 370px;
+}
+
+.mailing__input {
+   width: 100%;
+   height: 50px;
+   background: #494949;
+   border-radius: 5px;
+   border: 0;
+   padding: 17px 27px;
+   color: #fff;
+   margin-top: 31px;
+}
+
+.mailing__btn {
+   color: #fff;
+   margin-top: 25px;
+}
+
+.security {
+   margin-top: 60px;
+}
+
+.security__text {
+   line-height: 150%;
+   text-align: center;
+   letter-spacing: 0.01em;
+}
+
+.security__text:not(:last-child) {
+   margin-bottom: 25px;
+}
+
+.security__text:last-child {
+   font-size: 14px;
+   border-top: 1px solid #ccc;
+   padding-top: 20px;
+}
+
+.security__text_invisible {
+   display: none;
+}
  
