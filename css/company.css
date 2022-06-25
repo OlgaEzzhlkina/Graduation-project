@@ -243,3 +243,63 @@
    margin-top: 25px;
    letter-spacing: 0.07em;
 }
+
+/* ----- Section Team ----- */
+.team {
+   padding: 150px 0;
+}
+
+.team__title {
+   margin-bottom: 85px;
+}
+
+.team-item {
+   max-width: 385px;
+   position: relative;
+   
+}
+
+.team-item__img {
+   width: 100%;
+   display: block;
+}
+
+.team-item__post {
+   position: absolute;
+   right: 0;
+   bottom:73px;
+   font-size: 12px;
+   color: #fff;
+   width: 140px;
+   text-align: center;
+   background: #26AFFF;
+   z-index: 10;
+   padding: 10px 5px;
+}
+
+.team-item__worker {
+   border-radius: 2px;
+   box-shadow: 0px 5px 30px rgba(206, 218, 228, 0.6);
+   width: 345px;
+   padding: 25px;
+   margin-left: auto;
+   display: flex;
+}
+
+.team-item__social {
+   margin-left: auto;
+}
+
+.team-item__social-link {
+   color: #062B31;
+   font-size: 20px;
+}
+
+.team-item__social-link:hover {
+   color: #6c7075;
+}
+
+.team-item__icon_facebook {
+   margin-right: 18px;
+}
+ 
