@@ -174,7 +174,6 @@
 }
 
 .reason-supervisor__title {
-   font-size: 15px;
    line-height: 150%;
    letter-spacing: 0.01em;
    width: 320px;
@@ -191,4 +190,56 @@
    position: absolute;
    right: 0;
    bottom: 0;
+}
+
+/* ----- Section Progress ----- */
+.progress {
+   background: url('../img/company/progress-bg.jpg');
+   padding: 145px 0 200px;
+   min-height: 550px;
+}
+
+.progress-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width: 218px;
+   margin: 0 auto;
+}
+
+.progress-item__percent {
+   font-family: "ProximaNova-300";
+   font-weight: 300;
+   font-size: 45px;
+   line-height: 150%;
+   letter-spacing: 0.01em;
+   color: rgba(255, 255, 255, 0.8);
+   width: 193px;
+   height: 193px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.progress-item__percent_first {
+   background: url('../img/company/percent-bg-1.png') no-repeat center;
+}
+
+.progress-item__percent_second {
+   background: url('../img/company/percent-bg-2.png') no-repeat center;
+}
+
+.progress-item__percent_third {
+   background: url('../img/company/percent-bg-3.png') no-repeat -30px center;
+}
+
+.progress-item__percent_fourth {
+   background: url('../img/company/percent-bg-4.png') no-repeat -30px -30px;
+}
+
+.progress-item__subtitle {
+   color: #fff;
+   margin-top: 25px;
+   letter-spacing: 0.07em;
 }
